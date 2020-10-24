@@ -4,7 +4,7 @@
 		{% for item in site.data.navigation.pages if site.data.navigation.pages %}
 			<li class="{{ (item.url == page.url) ? 'active' }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 		{% endfor %}
-		{{ (site.data.navigation.pages and site.data.navigation.pages) ? '<hr>' }}
+		{{ (site.data.navigation.pages and site.data.navigation.site) ? '<hr>' }}
 		{% for item in site.data.navigation.site if site.data.navigation.site %}
 			<li class="{{ (item.url == page.url) ? 'active' }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
 		{% endfor %}
