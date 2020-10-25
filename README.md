@@ -1,2 +1,2 @@
-# i _ Jekyll theme
+# Observatory _ Jekyll theme
 Personal use.
